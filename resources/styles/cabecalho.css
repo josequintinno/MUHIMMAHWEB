@@ -73,8 +73,9 @@
     cursor: pointer;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    display: none;
-    transition: display 0.6s ease;
+    opacity: 0;
+    max-height: 0;
+    transition: opacity 0.3s ease, max-height 0.3s ease;
 }
 
 .usuario-configuracao ul li {
@@ -94,5 +95,6 @@
 }
 
 .usuario-configuracao.apresentar {
-    display: block;
+    opacity: 1;
+    max-height: 500px;
 }
