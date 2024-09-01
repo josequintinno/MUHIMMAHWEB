@@ -59,3 +59,40 @@
 #cabecalho .botaoes-usuario .usuario span {
     color: var(--cor-fonte-b);
 }
+
+.usuario-configuracao {
+    /* border: red solid 1px; */
+    position: absolute;
+    width: 200px;
+    top: 4.0rem;
+    right: 0;
+    background-color: var(--cor-fundo-a);
+    color: var(--cor-fonte-a);
+    padding: 1rem;
+    font-size: 14px;
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: none;
+    transition: display 0.6s ease;
+}
+
+.usuario-configuracao ul li {
+    display: flex;
+    align-items: center;
+    padding: 0.6rem;
+}
+
+.usuario-configuracao ul li:hover {
+    font-weight: bold;
+    transition: font-weight 0.4s ease-out;
+}
+
+.usuario-configuracao ul li i {
+    margin-right: 1rem;
+    font-size: 16px;
+}
+
+.usuario-configuracao.apresentar {
+    display: block;
+}
