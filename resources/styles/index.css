@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "Suse";
+    src: url("../fonts/Suse/Regular.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat/Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-fundo-a: #011124;
+    --cor-fonte-a: #e4ecef;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+#cabecalho {
+    background-color: var(--cor-fundo-a);
+    color: var(--cor-fonte-a);
+    padding: 1rem;
+}
+
+#cabecalho nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cabecalho .logomarca p {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+    font-family: "Suse";
+}
+
+#cabecalho .usuario {
+    /* border: dashed 2px red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cabecalho .usuario p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#cabecalho .usuario span {
+    font-size: 16px;
+}
