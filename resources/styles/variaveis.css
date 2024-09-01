@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-fundo-a: #011124;
+    --cor-fonte-a: #e4ecef;
+    --cor-fonte-b: #8b93a1;
+}

@@ -1,0 +1,61 @@
+#cabecalho {
+    background-color: var(--cor-fundo-a);
+    color: var(--cor-fonte-a);
+    padding: 1rem;
+}
+
+#cabecalho nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cabecalho .logomarca p {
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+    font-family: "Inter";
+}
+
+#cabecalho .botaoes-usuario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+#cabecalho .botaoes-usuario .botoes {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: all 0.4s ease-in;
+}
+
+#cabecalho .botaoes-usuario .botoes i {
+    cursor: pointer;
+}
+
+#cabecalho .botaoes-usuario .botoes i:hover {
+    font-weight: bold;
+}
+
+#cabecalho .botaoes-usuario .usuario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cabecalho .botaoes-usuario .usuario:hover {
+    cursor: pointer;
+}
+
+#cabecalho .botaoes-usuario .usuario p {
+    font-weight: bold;
+    /* border: red dashed 2px; */
+}
+
+#cabecalho .botaoes-usuario .usuario span {
+    color: var(--cor-fonte-b);
+}

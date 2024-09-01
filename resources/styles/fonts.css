@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Suse";
+    src: url("../fonts/Suse/Regular.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat/Regular.ttf");
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter/Regular.ttf");
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+
+body {
+    font-family: "Poppins";
+}
