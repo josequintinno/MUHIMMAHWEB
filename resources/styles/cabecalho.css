@@ -170,15 +170,19 @@
     left: 0;
     width: 100vw;
     height: 71px;
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 0.8s ease-in;
+    opacity: 0;
+    transform: translateY(-60px);
+    transition: opacity 1s ease-in, transform 1s ease-in;
     z-index: 9;
 }
 
 .campo-pesquisar.apresentarCampoPesquisar {
     display: flex;
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .campo-pesquisar .campo-pesquisar-input {
