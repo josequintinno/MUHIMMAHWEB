@@ -1,5 +1,5 @@
 #cabecalho {
-    background-color: var(--cor-fundo-a);
+    background-color: var(--ion-color-primary);
     color: var(--cor-fonte-a);
     padding: 1rem;
     /* border: red dashed 2px; */
@@ -66,7 +66,7 @@
     width: 200px;
     top: 4.0rem;
     right: 0;
-    background-color: var(--cor-fundo-a);
+    background-color: var(--ion-color-primary);
     color: var(--cor-fonte-a);
     padding: 1rem;
     font-size: 14px;
@@ -130,4 +130,30 @@
     height: 400px;    
     padding: 20px;
     border-radius: 8px;
+}
+
+.usuario-configuracao-perfil form .modal-rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.usuario-configuracao-perfil form .modal-rodape a {
+    padding: 0.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.usuario-configuracao-perfil form .modal-rodape a:nth-child(1) {
+    background-color: var(--cor-fonte-c);
+    color: var(--cor-fonte-a);
+    width: 80%;
+}
+
+.usuario-configuracao-perfil form .modal-rodape a:nth-child(2) {
+    background-color: var(--cor-fundo-b);
+    color: var(--cor-fonte-a);
+    width: 20%;
 }
