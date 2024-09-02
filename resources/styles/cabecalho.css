@@ -3,6 +3,7 @@
     color: var(--cor-fonte-a);
     padding: 1rem;
     /* border: red dashed 2px; */
+    box-shadow: 1px 2px 40px 10px rgba(0, 0, 0, 0.1);
 }
 
 #cabecalho nav {
