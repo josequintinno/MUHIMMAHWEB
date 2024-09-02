@@ -2,6 +2,7 @@
     background-color: var(--cor-fundo-a);
     color: var(--cor-fonte-a);
     padding: 1rem;
+    /* border: red dashed 2px; */
 }
 
 #cabecalho nav {
@@ -53,7 +54,6 @@
 
 #cabecalho .botaoes-usuario .usuario p {
     font-weight: bold;
-    /* border: red dashed 2px; */
 }
 
 #cabecalho .botaoes-usuario .usuario span {
@@ -76,6 +76,7 @@
     opacity: 0;
     max-height: 0;
     transition: opacity 0.3s ease, max-height 0.3s ease;
+    z-index: 10;
 }
 
 .usuario-configuracao ul li {
@@ -97,4 +98,36 @@
 .usuario-configuracao.apresentar {
     opacity: 1;
     max-height: 500px;
+}
+
+.usuario-configuracao-perfil {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 4.9rem;
+    left: 0;
+    /* border: red solid 1px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    backdrop-filter: blur(1px);
+    opacity: 0;
+    max-height: 100%;
+    transition: opacity 0.3s ease, max-height 0.3s ease;
+}
+
+.usuario-configuracao-perfil.apresentar-modal-perfil {
+    opacity: 1;
+    max-height: 100vh;
+    top: 0;
+}
+
+.usuario-configuracao-perfil form {
+    background-color: white;
+    width: 800px;
+    /* height: auto; */
+    height: 400px;    
+    padding: 20px;
+    border-radius: 8px;
 }
