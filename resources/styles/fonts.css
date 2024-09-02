@@ -18,6 +18,11 @@
     src: url("../fonts/Poppins/Poppins-Regular.ttf");
 }
 
+@font-face {
+    font-family: "Chakra";
+    src: url("../fonts/ChakraPetch/Bold.ttf");
+}
+
 body {
-    font-family: "Poppins";
+    font-family: "Montserrat";
 }

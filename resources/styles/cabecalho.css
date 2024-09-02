@@ -1,5 +1,5 @@
 #cabecalho {
-    background-color: var(--ion-color-primary);
+    background-color: var(--color-primary);
     color: var(--cor-fonte-a);
     padding: 1rem;
     /* border: red dashed 2px; */
@@ -16,7 +16,7 @@
     font-size: 26px;
     font-weight: bold;
     letter-spacing: 0.5rem;
-    font-family: "Inter";
+    font-family: "Chakra";
 }
 
 #cabecalho .botaoes-usuario {
@@ -67,7 +67,7 @@
     width: 200px;
     top: 4.0rem;
     right: 0;
-    background-color: var(--ion-color-primary);
+    background-color: var(--color-primary);
     color: var(--cor-fonte-a);
     padding: 1rem;
     font-size: 14px;
@@ -157,4 +157,8 @@
     background-color: var(--cor-fundo-b);
     color: var(--cor-fonte-a);
     width: 20%;
+}
+
+.divisor {
+    border-bottom: var(--color-medium) solid 1px;
 }
