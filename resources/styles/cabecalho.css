@@ -162,3 +162,32 @@
 .divisor {
     border-bottom: var(--color-medium) solid 1px;
 }
+
+.campo-pesquisar {
+    position: absolute;
+    background-color: var(--color-primary-contrast);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 71px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.8s ease-in;
+    z-index: 9;
+}
+
+.campo-pesquisar.apresentarCampoPesquisar {
+    display: flex;
+}
+
+.campo-pesquisar .campo-pesquisar-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.campo-pesquisar .campo-pesquisar-input input {
+    width: 600px;
+    border: none;
+}
